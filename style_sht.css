@@ -1,0 +1,74 @@
+body{background-image: url(http://www.harvey.lib.il.us/images/Backgrounds/Tiles/paws.gif);
+background-repeat:no-repeat;
+background-size: cover;
+font-family: sans-serif;
+text-align-last: center;
+text-decoration-style: solid;
+font-weight: bold;
+width:700px;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+}
+#x1 {color: black}
+button{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+}
+  .footer {
+   position: absolute;
+   position:relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#4CAF50;
+   color: white;
+   text-align: center;
+}
+a{
+  color: white;
+}
+a.{
+  color: blue;
+}
+
+.dropbtn {
+  background-color:#4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  padding: 20px;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 280px;
+  box-shadow: 10px 8px 16px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-size: 10px;
+  text-align: right;
+  color: black;
+  padding: 15px 26px;
+  text-decoration: none;
+
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #EA3316;}
